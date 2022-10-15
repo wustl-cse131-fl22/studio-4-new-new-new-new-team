@@ -21,7 +21,7 @@ public class InterpretDrawingFile {
 //		File f = new File(chooser.getSelectedFile().getPath());
 //		Scanner in = new Scanner(f); //making Scanner with a File
 		StdDraw.setXscale(0, 12);
-		StdDraw.setYscale(0, 12);
+		StdDraw.setYscale(0, 6);
 		StdDraw.setPenColor(Color.YELLOW);
 		StdDraw.filledRectangle(6, 1.5, 6,1.5);
 		StdDraw.setPenColor(Color.BLUE);
